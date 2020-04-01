@@ -1,5 +1,8 @@
 # GKStateMachine
 
+## Exemplo simples
+[Modelo inicial de uma Máquina de Estados usando SpriteKit/Swift](https://gist.github.com/murilogteixeira/d51fc1568467f6418b0b0d14f412c44d/edit)
+
 ## O que é?
 É uma máquina de estados que contém uma coleção de objetos de estados que definem a lógica específica do jogo e as regras para transição de estados.
 
