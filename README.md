@@ -37,13 +37,13 @@ A máquina de estados notifica cada estado sempre que uma mudança ocorre. Nos m
 O método `update(deltaTime:)` funciona para definir ações a serem executadas por quadro, por exemplo alterar a posição do seu personagem.
 
 ## Esqueleto de uma máquina de estado
-Aqui há dois arquivos como um modelo inicial para guiar na criação da sua máquina de estados que eu costumo utilizar em meus projetos.
+Aqui há dois projetos como um modelo inicial para guiar na criação da sua máquina de estados que eu costumo utilizar em meus projetos.
 
 O arquivo `GameScene.swift` contém a base para a máquina de estados, é onde iniciamos a nossa máquina definindo o objeto que vai gerenciar nossos estados.
 
 O arquivo `State.swift` é o arquivo base para cada estado, nele contém a implementação dos métodos principais para o funcionamento da máquina de estados e você pode replicar para arquivo inicial de todos os estados.
 
-Existem comentários em todo o código para explicar a funcionalidade de cada linha. Caso necessite, pode criar da forma que desejar utilizando os conceitos apresentados acima. Esses documentos servem para mostrar uma aplicação real da máquina de estados para um jogo utilizando `GKStateMachine`.
+Existem comentários em todo o código para explicar a funcionalidade de cada linha. Caso necessite, pode criar da forma que desejar utilizando os conceitos apresentados acima. Esses projetos servem para mostrar uma aplicação real da máquina de estados para um jogo utilizando `GKStateMachine`.
 
 Espero ter ajudado você a entender e a criar a sua máquina de estados e utilizar de forma a deixar o seu código e seu jogo mais eficiente.
 
